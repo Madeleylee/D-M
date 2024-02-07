@@ -223,8 +223,7 @@ iframe.index{
     font-size: 1em;
     text-decoration: none;
     line-height: 40px
-    border: none;
-    transition: background-color 0.3s ease;
+    
 }
 
 .submenu-parent ul li a:hover {
@@ -254,7 +253,6 @@ iframe.index{
 
 .slogan{
     text-decoration: none;
-   /* background-color: #ded3e9;*/
 	color: white;
 	font-weight: 600;
 	text-transform: uppercase;
