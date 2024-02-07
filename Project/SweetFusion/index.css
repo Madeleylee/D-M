@@ -127,7 +127,7 @@ iframe.index{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
 .navbar .fa-bars {
@@ -147,7 +147,7 @@ iframe.index{
 
 .menu a {
 	text-decoration: none;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	color: white;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -189,7 +189,7 @@ iframe.index{
     border: 1px solid grey;
     box-shadow: 0px 8px 16px #009999;
     z-index: 100;
-    margin-top: 5px;
+    margin-top: 3rem;
 }
 
 .submenu-parent ul {
@@ -218,19 +218,11 @@ iframe.index{
     text-align: center;
 }
 
-.submenu-parent ul li a[href="https://www.ejemplo.com"],
-.submenu-parent ul li a[href="no available"],
-.submenu-parent ul li a[href="no available"] {
-    display: block;
-    margin: 0; 
-    padding: 10px;
-}
 
 .submenu-parent ul li a {
     font-size: 1em;
     text-decoration: none;
-    line-height: 40px;
-    
+    line-height: 40px
     border: none;
     transition: background-color 0.3s ease;
 }
@@ -249,12 +241,20 @@ iframe.index{
 
 .container-fluid img {
     width: 35vw;
-    height:40vw;
+    height:100vh;
+}
+
+.nic{
+    height: 100vh;
+}
+
+.img-11{
+    filter: brightness(0.5);
 }
 
 .slogan{
     text-decoration: none;
-    background-color: #ded3e9;
+   /* background-color: #ded3e9;*/
 	color: white;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -573,8 +573,6 @@ body {
 
 header, footer {
     background-color: #f0f0f0;
-    padding: 10px;
-    margin-bottom: 20px;
 }
 
 .products {
